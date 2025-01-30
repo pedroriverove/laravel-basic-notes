@@ -35,7 +35,7 @@ class NoteManager
     /**
      * @param array $data
      * @param int $note_id
-     * @return Note
+     * @return void
      */
     public function update(array $data, int $note_id): void
     {

@@ -30,7 +30,7 @@ cp .env.example .env
 
 ### Set your database credentials in your .env file
 
-change the following lines in your .env file
+Change the following lines in your .env file
 ```conf
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -72,6 +72,7 @@ php artisan serve
 ```
 
 ## Login credentials for super admin
+
 Visit 127.0.0.1:8000 in your browser and login with the following credentials:
 ```
 email: admin@example.com
@@ -81,5 +82,3 @@ password: password
 ## Screenshot
 
 ![](./screenshot.png)
-
-
